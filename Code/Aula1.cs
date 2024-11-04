@@ -11,9 +11,11 @@ namespace Code{
             // se não, printe "Não há argumentos"
             if (args.GetLength(0) > 0){
                 System.Console.WriteLine(args.GetValue(0));  
-                return;   
+                
+            }else{
+                System.Console.WriteLine("Não há argumentos");
             }
-            System.Console.WriteLine("Não há argumentos");
+            
 
 
             string letras = "asndf";
