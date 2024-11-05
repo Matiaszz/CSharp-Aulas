@@ -4,7 +4,7 @@ using Code;
 namespace Code{
     class Aula1{
 
-        public static void Main(string[] args){
+        public static void Aula(string[] args){
 
             // se o tamanho do argumento passado for maior que 0, printe o valor
             // se não, printe "Não há argumentos"
